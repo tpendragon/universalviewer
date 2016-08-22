@@ -1,13 +1,5 @@
 # Universal Viewer
 
-[![Build Status](https://travis-ci.org/UniversalViewer/universalviewer.svg?branch=master)](https://travis-ci.org/UniversalViewer/universalviewer) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/UniversalViewer/universalviewer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-    npm install universalviewer
-
-or
-
-    bower install uv
-
 [Examples](http://universalviewer.io/examples/)
 
 [Google group](https://groups.google.com/forum/#!forum/universalviewer)
@@ -63,7 +55,7 @@ All command-line operations for building the UV are scripted using [Grunt](http:
 
 1. Clone the `universalviewer` repository and sub modules:
 
-	    git clone https://github.com/UniversalViewer/universalviewer.git --recursive
+	    git clone https://github.com/pulibrary/universalviewer.git --recursive
 
 1. On the command line, go in to the `universalviewer` folder
 
@@ -80,20 +72,6 @@ To build the debug version of the viewer, just run (on the command line, in the 
 	grunt
 
 This will compile the [.less](http://lesscss.org) files into .css and [.ts](http://typescriptlang.org) files into .js with source maps to aid in debugging.
-
-### Distribution Builds
-
-To build the distribution version of the UV, just run (on the command line, in the `universalviewer` folder):
-
-	grunt build
-
-A versioned `uv-major.minor.patch` folder along with compressed .zip and .tar files will appear in the `/dist` folder. Use these in your website, or alternatively use:
- 
-    bower install uv --save
-    
-which will download the distribution folder to `bower_components`.
-
-See https://github.com/UniversalViewer/demo-site for examples.
 
 ### Examples
 
