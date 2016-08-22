@@ -3106,3 +3106,9 @@ input[type=range]:focus::-ms-fill-upper {
 #app .footerPanel .searchPager .controls .searchResultsInfo {
   width: 337px;
 }
+#app .headerPanel .centerOptions .image-selectionbox-options {
+  float: left;
+  margin: 0 0 0 0;
+  padding-top: 7px;
+  padding-left: 10px;
+}

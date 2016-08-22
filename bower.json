@@ -18,6 +18,6 @@
   "dependencies": {},
   "devDependencies": {
     "uv-cy-GB-theme": "universalviewer/uv-cy-GB-theme",
-    "uv-en-GB-theme": "universalviewer/uv-en-GB-theme"
+    "uv-en-GB-theme": "pulibrary/uv-en-GB-theme"
   }
 }
